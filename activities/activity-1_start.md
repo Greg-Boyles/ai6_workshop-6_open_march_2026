@@ -64,6 +64,8 @@ You do not need a technically precise match. A rough recognition is enough. Shar
 
 Choose **one** of the unhealthy curves. Write one or two sentences explaining what is happening and what you would recommend — addressed to a non-technical colleague, with no jargon.
 
+Training started off fine, but the longer it ran the worse the model got. Nothing crashed, the adjustments it made each round were simply too large, so it kept overshooting the target. I'd reduce that adjustment size and re-run.
+
 > _______________________________________________________________
 
 📘 **B3 note:** The goal is not to simplify — it is to translate accurately, so the other person can participate in the decision rather than just defer to you. A good explanation gives them something actionable.

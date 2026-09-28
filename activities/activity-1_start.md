@@ -34,9 +34,9 @@ For each curve, agree as a group on the most likely cause before moving on.
 
 | Curve | What you observe | Most likely cause |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A | Both losses fall smoothly together, small stable gap | Learning rate about right |
+| B | Loss zig-zags violently, ends worse than it started | Learning rate too high, overcorrects, then improves again|
+| C | Both lines fall, but only around 0.09 total | Learning rate too low maybe|
 
 💡 **Tip:** Focus on what the *validation* line is doing relative to the *training* line — not just whether training loss is going down.
 

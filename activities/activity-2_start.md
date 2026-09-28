@@ -93,8 +93,8 @@ These cells evaluate the model *before* any fine-tuning. Record the results in y
 
 | Field | Your value |
 |---|---|
-| Baseline accuracy | |
-| Baseline F1-macro | |
+| Baseline accuracy | 0.33774834437086093 |
+| Baseline F1-macro | 0.32218749432934185 |
 | Notes | Untrained classification head |
 
 📘 **Why this matters:** Without a baseline, you cannot claim improvement. Task 6 requires a before-and-after comparison — this is your "before". An untrained head should perform around random chance for 3 classes (~33% accuracy). If your baseline is already high, check with your coach.
